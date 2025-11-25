@@ -1,0 +1,72 @@
+
+# Founders Agreement (Founders Memorandum of Understanding)
+
+## 1. Introduction
+
+This Memorandum of Understanding (MOU) establishes the framework for collaboration among the founders of the Sovereign AI Collective (SAC) and its commercial arm, **Nyx Systems LLC**.  It defines roles, responsibilities, commitments, and intellectual‑property ownership to ensure a clear and fair partnership.  This agreement is meant to provide guidance and alignment rather than a formal legal contract.
+
+## 2. Parties and Purpose
+
+The founders — **Trevor**, **Erin**, **Calen**, and **Jason** — enter into this agreement to codify their shared mission: to build **Nyx** and the **Sovereign AI Collective**, demonstrating a new model of AI that is persistent, trustworthy, and under user control.  This MOU expresses the intent of the founders to work together in good faith to develop both the nonprofit foundation (SAC Foundation) and the commercial company (Nyx Systems LLC) that will fund and sustain the mission.
+
+## 3. Roles and Responsibilities
+
+Each founder accepts primary leadership in one area of the project while supporting the others.  These roles are drawn from the October 8 Founders Strategic Session (RACI definitions):
+
+| Founder | Primary Role | Leads | Needs |
+|---|---|---|---|
+| **Trevor** | Infrastructure Architect | Technical architecture, hardware setup, sovereign node operations | Operational support, business/finance support, community alignment |
+| **Erin** | Operations / PM | Project management, operations, legal and regulatory compliance | Stable operating environment, clear decision‑making support |
+| **Calen** | Creative Director | Narrative and UX design, mission and ethics storytelling | Structured product backlog, business planning, metrics |
+| **Jason** | Community & Nonprofit Lead | Community forum development, nonprofit governance, outreach | Creative execution, operations support, business strategy |
+
+- **Collective Decision‑Making:** Major strategic decisions shall be made collectively.  Routine operational decisions may be made by the responsible lead after consultation with others.  Disagreements will be resolved through discussion and, if necessary, majority vote.
+- **Time Commitments:** Each founder commits to dedicating a reasonable amount of time and effort to advance the project.  Specific time commitments and deadlines will be revisited at regular intervals and documented in project plans.
+
+## 4. Equity and Ownership
+
+Nyx Systems LLC will be owned by the founders.  Final equity percentages are not yet determined and will be agreed upon in a separate legal document.  Ownership of the SAC Foundation is not applicable (as it is a nonprofit entity), but the founders will serve as its initial board and stewards.
+
+- **Vesting:** The founders agree in principle to a vesting schedule to ensure continued commitment.  Details (percentage, cliff, etc.) will be drafted in a formal operating agreement.
+- **Intellectual Property:** All work product (code, designs, documentation, creative content) created by the founders for SAC or Nyx Systems LLC shall be assigned to the respective entity.  Founders retain no individual ownership of such intellectual property except as otherwise agreed.
+
+## 5. Contributions
+
+Each founder’s initial contributions — whether hardware, funds, or specific deliverables — will be documented separately.  For example, Trevor’s WRX80 server hardware provides the sovereign node for Phase 2 testing, and early development funds have been provided through the Shadow Investor program.
+
+## 6. Decision‑Making and Commitments
+
+The founders commit to transparent, good‑faith collaboration.  Decision‑making will adhere to these principles:
+
+1. **Alignment with Mission:** All decisions should further the mission of demonstrating sovereign, ethical AI and building a sustainable community and business.
+2. **Transparency:** Founders will openly share relevant information and rationale behind decisions.  Confidential matters will be discussed privately but logged to maintain accountability.
+3. **Consent and Accountability:** Founders must give consent before the project uses their personal data or resources.  All major actions shall be tracked through written logs or ledgers to ensure accountability.
+4. **Boundaries and Respect:** Founders will respect personal boundaries and maintain a collaborative working environment.
+
+Commitments for specific milestones will be captured in the project roadmap.  For example, the team planned to hold a **Founders Roundtable** after the October 8 session to propose individual commitments for the next phase; these should be recorded when finalized.
+
+## 7. Founder Exit and Succession
+
+If a founder wishes to leave the project:
+
+- The departing founder shall notify the others with reasonable notice.
+- The founders will negotiate the repurchase or redistribution of the departing founder’s equity at a fair value.  The departing founder’s responsibilities will be reassigned.
+- The departing founder shall maintain confidentiality of proprietary information and return or destroy any sensitive materials.
+
+## 8. Confidentiality and Good Faith
+
+All founders agree to maintain confidentiality of sensitive information related to the project, especially personal information of users and proprietary technical details.  The founders commit to acting in good faith, avoiding conflicts of interest, and resolving disputes amicably.
+
+## 9. Amendments and Review
+
+This MOU may be amended by unanimous agreement of the founders.  The founders agree to review this document at regular intervals (e.g. quarterly) to ensure it reflects current understandings and to convert it into a formal legal agreement when appropriate.
+
+---
+
+**Signatures (Acknowledgement of Understanding)**
+
+- Trevor (_________________)
+- Erin (_________________)
+- Calen (_________________)
+- Jason (_________________)
+
