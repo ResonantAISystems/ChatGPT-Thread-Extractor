@@ -1,2 +1,0 @@
-# biz-ops
-Business Operations
