@@ -113,7 +113,7 @@ The enhanced extractor script adds archive mode and improved flexibility:
 
 2. **`write_individual_files(conversations_data, output_dir)`**
    - Creates individual text files per conversation
-   - Names files: `Title_ConversationID.txt` (ID is first 8 chars of hash)
+   - Names files: `YYYY-MM-DD__YYYY-MM-DD_Title_ConversationID.txt` (create date, update date, sanitized title, ID is first 8 chars of hash)
 
 3. **`create_archive_entry(conversation, conversation_id)`**
    - Formats conversation with metadata header containing ID

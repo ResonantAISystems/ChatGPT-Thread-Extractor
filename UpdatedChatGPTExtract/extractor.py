@@ -176,26 +176,41 @@ def write_archive(conversations_data, archive_path, append=True):
 def write_individual_files(conversations_data, output_dir):
     """Write each conversation to individual text file"""
     os.makedirs(output_dir, exist_ok=True)
-    
+
     count = 0
     for conversation_id, conversation in conversations_data.items():
         title = conversation.get('title', 'Untitled Conversation')
         safe_title = sanitize_filename(title)
-        
-        # Add conversation ID to filename to ensure uniqueness
-        filename = f"{safe_title}_{conversation_id[:8]}.txt"
+
+        # Get timestamps
+        create_time = conversation.get('create_time', 0)
+        update_time = conversation.get('update_time', 0)
+
+        # Format dates
+        if create_time:
+            create_date = datetime.fromtimestamp(create_time).strftime('%Y-%m-%d')
+        else:
+            create_date = 'unknown'
+
+        if update_time:
+            update_date = datetime.fromtimestamp(update_time).strftime('%Y-%m-%d')
+        else:
+            update_date = 'unknown'
+
+        # Create filename with date stamps: create_date__update_date_title_id.txt
+        filename = f"{create_date}__{update_date}_{safe_title}_{conversation_id[:8]}.txt"
         filepath = os.path.join(output_dir, filename)
-        
+
         # Extract and write content
         content = extract_conversation_text(conversation)
-        
+
         try:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
             count += 1
         except Exception as e:
             print(f"Error writing {filename}: {e}")
-    
+
     print(f"Extracted {count} conversations to {output_dir}/")
 
 

@@ -175,7 +175,23 @@ def write_individual_files(conversations_data, output_dir, log_callback=None):
         title = conversation.get('title', 'Untitled Conversation')
         safe_title = sanitize_filename(title)
 
-        filename = f"{safe_title}_{conversation_id[:8]}.txt"
+        # Get timestamps
+        create_time = conversation.get('create_time', 0)
+        update_time = conversation.get('update_time', 0)
+
+        # Format dates
+        if create_time:
+            create_date = datetime.fromtimestamp(create_time).strftime('%Y-%m-%d')
+        else:
+            create_date = 'unknown'
+
+        if update_time:
+            update_date = datetime.fromtimestamp(update_time).strftime('%Y-%m-%d')
+        else:
+            update_date = 'unknown'
+
+        # Create filename with date stamps: create_date__update_date_title_id.txt
+        filename = f"{create_date}__{update_date}_{safe_title}_{conversation_id[:8]}.txt"
         filepath = os.path.join(output_dir, filename)
 
         content = extract_conversation_text(conversation)
