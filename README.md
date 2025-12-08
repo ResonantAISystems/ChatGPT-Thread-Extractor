@@ -1,6 +1,12 @@
-# ChatGPT Thread Extractor
+<div align="center">
 
-A Python tool to extract conversations from ChatGPT's exported conversation data into readable text files or a combined archive.
+# Resonant AI Core
+### *ChatGPT Thread Extractor*
+> 
+**A Python tool to extract conversations from ChatGPT's exported conversation data into readable text files or a combined archive.**
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.txt)
+</div>
 
 ## Overview
 
@@ -270,8 +276,7 @@ ChatGPT-Thread-Extractor/
 ├── extractor.py                  # CLI script (archive + individual modes)
 ├── extract_conversations.py      # Legacy CLI script (individual files only)
 ├── README.md                     # This file
-├── CLAUDE.md                     # Instructions for Claude Code
-├── LICENSE                       # MIT License
+├── LICENSE                       # Apache 2
 └── conversations.json            # Your export (not in repo)
 ```
 
@@ -371,15 +376,4 @@ python3 extractor.py new_export.json --archive
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions welcome! Please:
-- Open issues for bugs or feature requests
-- Submit pull requests with clear descriptions
-- Maintain backward compatibility with existing archives
-
-## Related Projects
-
-- [Sovereign AI Collective](https://github.com/ResonantAISystems/Continuity-Project) - AI continuity architecture using this tool for memory persistence
+This project is licensed under the Apache 2.0 license - see the [LICENSE](LICENSE) file for details.
